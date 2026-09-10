@@ -1,3 +1,4 @@
 title: 我的博客
 description: a beautiful girl
 theme: jekyll-theme-hacker
+baseurl: "/wgy0828"    # ← 加上这一行！前后不要有空格
