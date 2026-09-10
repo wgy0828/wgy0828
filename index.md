@@ -14,7 +14,7 @@ title: wgy0828的博客
 <ul>
   {% for post in site.posts %}
     <li style="margin-bottom: 15px;">
-      <!-- 核心：必须用 a 标签包裹，才能点击跳转 -->
+      <!-- 核心：a标签才是真正的超链接 -->
       <a href=" " style="font-size: 18px; color: #0366d6; text-decoration: none;">{{ post.title }}</a >
       <br>
       <small style="color: #888;">{{ post.date | date: "%Y-%m-%d" }}</small>
